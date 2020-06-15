@@ -14,10 +14,10 @@ let configurationObj = {
 
 }
 return fetch ('http://localhost:3000/users',configurationObj)
-.then(resp=> resp.json())
-.then(resp => {
+.then(res=> res.json())
+.then(res => {
 
-  body.innerHTML = resp.id;
+  body.innerHTML = res.id;
 }).catch( error=> {
 
 body.innerHTML = error.message;
