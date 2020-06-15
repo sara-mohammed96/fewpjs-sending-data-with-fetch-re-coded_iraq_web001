@@ -2,7 +2,7 @@
 function submitData(userName,email){
  let body=document.querySelector('body');
 let info = {
-  name:name,
+  name:uername,
   email:email
 };
 
