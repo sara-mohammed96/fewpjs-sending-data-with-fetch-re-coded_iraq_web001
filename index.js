@@ -1,4 +1,4 @@
 // Add your code here
 function submitData(userName,email){
- let body=
+ let body=document.querySelector('body');
 }
